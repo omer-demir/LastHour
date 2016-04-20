@@ -1,0 +1,21 @@
+{
+  "name": "last-hour",
+  "version": "0.0.1",
+  "description": "Your posts will be archived in a minute",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [
+    "last",
+    "hour"
+  ],
+  "author": "Ömer-Emir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.12"
+  }
+}
