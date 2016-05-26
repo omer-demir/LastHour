@@ -9,13 +9,10 @@ application.connect();
 var mainApp=express();
 var httpClient=http.Server(mainApp);
 
-
 mainApp.use(bodyParser.urlencoded({extended: true}));
 mainApp.use(bodyParser.json());
 
-
 mainApp.use(express.static(__dirname + "/public"));
-
 
 httpClient.listen(config.port, function (err) {
     if (err) {
